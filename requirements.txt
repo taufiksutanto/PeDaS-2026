@@ -1,0 +1,8 @@
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+ipykernel==7.3.0
+nbformat==5.11.1
+nbclient==0.11.0

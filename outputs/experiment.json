@@ -1,0 +1,23 @@
+{
+  "source": "data/WSdata-idadx.phishes_10000_masked.csv",
+  "sha256": "1690ae8f02058d6c460ddb1d0465f4c35163bcaf789ae2268b5cdb43a6cce1cd",
+  "seed": 2026,
+  "target": {
+    "0": "non_phishing_abuse",
+    "1": "phishing"
+  },
+  "metric": "Macro-F1",
+  "threshold": 0,
+  "best_params": {
+    "preprocess__url__ngram_range": [
+      2,
+      4
+    ],
+    "svm__C": 10.0,
+    "svm__class_weight": "balanced"
+  },
+  "sklearn": "1.8.0",
+  "train_dev_n": 7919,
+  "test_n": 1981,
+  "pretrained_executed": false
+}
