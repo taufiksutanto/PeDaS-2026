@@ -1,0 +1,24 @@
+{
+  "prediction": {
+    "read": 20,
+    "valid": 20,
+    "invalid": 0,
+    "invalid_rows": []
+  },
+  "ground_truth": {
+    "read": 20,
+    "valid": 20,
+    "invalid": 0,
+    "invalid_rows": []
+  },
+  "missing_prediction_ids": 0,
+  "valid_matched_pairs": 20,
+  "status": "VALID",
+  "macro_f1": 0.925,
+  "scoring_classes": [
+    "malware",
+    "online gambling",
+    "phishing",
+    "spam"
+  ]
+}
